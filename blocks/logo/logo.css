@@ -1,0 +1,20 @@
+.logo_place_footer {
+  margin-right: 20px;
+}
+
+.logo__img {
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.logo__img_place_header {
+  background-image: url(../../images/logo_pult.svg);
+  width: 57px;
+  height: 30px;
+}
+
+.logo__img_place_footer{
+  background-image: url(../../images/Logo_pult-footer.svg);
+  width: 86px;
+  height: 45.6px;
+}

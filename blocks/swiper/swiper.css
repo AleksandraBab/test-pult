@@ -1,0 +1,33 @@
+.swiper-pagination-bullet {
+  width: 18px;
+  height: 18px;
+  background: #1d9cd8;
+  opacity: 1;
+  margin-right: 20px;
+}
+
+.swiper-pagination-bullet:hover {
+  opacity: 0.8;
+}
+
+.swiper-pagination-bullet-active {
+  background: black;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-pagination-bullet {
+    margin-right: 8px;
+  }
+}
+
+.swiper-pagination {
+  position: static;
+  margin: 25px auto 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .swiper-pagination {
+    margin-top: 15px;
+  }
+}
+

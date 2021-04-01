@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  width: calc(100% - 48px);
+  max-width: 1200px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1279px) {
+  .header {
+    width: calc(100% - 93px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: calc(100% - 24px);
+  }
+}
+
+
+.header__logo-img {
+  width: 162px;
+  height: 50px;
+  background-image: url(../../images/Gallo_Acoustics.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
